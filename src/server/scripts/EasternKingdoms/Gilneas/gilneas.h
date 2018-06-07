@@ -77,7 +77,6 @@ enum GilneasSpells
 
     SPELL_FROSTBOLT                         = 11538,
 
-    SPELL_ENRAGE                            = 8599,
     SPELL_CHARGE                            = 100,
     SPELL_EVISCERATE                        = 2098,
     SPELL_CORRUPTION                        = 172,
@@ -164,7 +163,6 @@ enum GilneasEvents
 
     EVENT_TALK                              = 11,
 
-    EVENT_FINISH_RUN                        = 12,
     EVENT_RUN_AWAY                          = 13,
 
     EVENT_START_RUN                         = 14,

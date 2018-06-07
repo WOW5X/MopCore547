@@ -187,8 +187,8 @@ class boss_zuljin : public CreatureScript
 
             void Reset()
             {
-                if (instance)
-                    instance->SetData(DATA_ZULJINEVENT, NOT_STARTED);
+                /*if (instance)
+                    instance->SetData(event, NOT_STARTED);*/
 
                 Phase = 0;
 
@@ -224,8 +224,8 @@ class boss_zuljin : public CreatureScript
 
             void EnterCombat(Unit* /*who*/)
             {
-                if (instance)
-                    instance->SetData(DATA_ZULJINEVENT, IN_PROGRESS);
+                /*if (instance)
+                    instance->SetData(DATA_ZULJINEVENT, IN_PROGRESS);*/
 
                 DoZoneInCombat();
 
@@ -255,8 +255,8 @@ class boss_zuljin : public CreatureScript
 
             void JustDied(Unit* /*killer*/)
             {
-                if (instance)
-                    instance->SetData(DATA_ZULJINEVENT, DONE);
+                /*if (instance)
+                    instance->SetData(DATA_ZULJINEVENT, DONE);*/
 
                 me->MonsterYell(YELL_DEATH, LANG_UNIVERSAL, 0);
                 DoPlaySoundToSet(me, SOUND_DEATH);
