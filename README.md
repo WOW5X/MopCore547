@@ -3,17 +3,18 @@
 
  INSTRUCTIONS:
  
-1) Client for this source can be fount here:
+1) Client exe files for this source can be fount here:
 
 x32: https://github.com/MoPSource/MopCore547/raw/master/client/MoPCore547x32.rar
 x64: https://github.com/MoPSource/MopCore547/raw/master/client/MoPCore547x64.rar
 
-2) If you alredy have the Mists of Pandaria 5.4.X, you can just put this client in the folder and start it
+2) If you already have the Mists of Pandaria 5.4.X, you can just put this client in the folder and start it.
 
-3) If you don't have Mists of Pandaria alredy, then just put this .exe file in empty folder start it and
+3) If you don't have Mists of Pandaria, then just put this .exe file in empty folder start it and
    after it is done loading exit game and change your config.wtf to your desired realmlist.
    
-4) Dbc, Db2, Maps, Mmaps and Vmaps can be found here:
+4) Dbc, Db2, Maps, Mmaps, Vmaps and full world database can be found
+   in section "Release" of this repository.
 
 https://github.com/MoPSource/MopCore547/releases/download/mc547data/Data.rar
 
